@@ -1,0 +1,47 @@
+#External  {
+  color: yellow;
+  margin-left: 40px;
+}
+
+*{
+  margin-left: 40px;
+  font-family: "Courier New", monospace;
+  font-size: 30px;
+
+}
+
+h1  {
+    font-size: 3rem;
+}
+
+#Title {
+  text-transform: uppercase;
+}
+
+.language {
+          background-color: green;
+}
+
+[class$="list"] {
+  border-width: 1px;
+    border-style: solid;
+    border-color: navy;
+    width: 40%;
+}
+
+#other + ol {
+ list-style-type: square;
+}
+
+#photo img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+ol ~ p {
+ text-align: center;
+}
+
+  section > ol > li {
+  letter-spacin
